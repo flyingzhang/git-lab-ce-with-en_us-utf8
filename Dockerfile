@@ -1,4 +1,4 @@
-from gitlab/gitlab-ce:15.5.4-ce.0
+from gitlab/gitlab-ce:15.0.5-ce.0
 
 RUN set -xe \
     && export DEBIAN_FRONTEND=noninteractive \
