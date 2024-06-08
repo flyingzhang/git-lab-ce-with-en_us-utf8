@@ -1,4 +1,5 @@
-from gitlab/gitlab-ce:15.11.3-ce.0
+ARG GITLAB_VERSION
+from gitlab/gitlab-ce:${GITLAB_VERSION}
 
 RUN set -xe \
     && export DEBIAN_FRONTEND=noninteractive \
